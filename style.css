@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: rgb(5, 3, 47);
+}
+
+.tela1 {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #76ffcf;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0px 70px rgba(0, 208, 255);
+    width: 300px;
+}
+
+.tela2 {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #51ffc2;
+    background-color: rgba(255, 255, 255);
+    border-radius: 8px;
+    box-shadow: 0 0px 70px rgba(0, 208, 255);
+    width: 900px;
+}
+
+.tela3 {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #51ffc2;
+    background-color: rgba(255, 255, 255);
+    border-radius: 8px;
+    box-shadow: 0 0px 70px rgba(0, 208, 255);
+    width: 400px;
+}
+
+
+button {
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #3612eb;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: rgb(61, 152, 255);
+}
+
+textarea, input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin: 10px 0;
+    box-sizing: border-box;
+}
+
+h1{
+    color: #003e68;
+    text-shadow: 0 0px 7px rgba(0, 208, 255);
+}
+
+h2{
+    color: #003e68;
+    text-shadow: 0 0px 7px rgba(0, 208, 255);
+}
+
+h3{
+    color: #003e68;
+    text-shadow: 0 0px 7px rgba(0, 208, 255);
+}
+
+h4{
+    color: #003e68;
+    text-shadow: 0 0px 7px rgba(0, 208, 255);
+}

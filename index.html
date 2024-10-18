@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Aplicativo de Feedback</title>
+    <!-- Chamando o CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Chamando o JavaScript-->
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <!-- Tela 1: Introdução -->
+    <div id="tela1" class="tela1">
+        <h1>Bem-vindos, Este é o trablho sobre Mobilidade Urbana</h1>
+        <h2> Equipe:Underground </h2>
+        <h3>Membros: Marti, Nicolly, Kauã, Lorenzo e Gustavo.</h3>
+        <h4>A mobilidade urbana se impõe como um desafio em todo o mundo.
+         Ela é parte fundamental do planejamento urbano e possui 
+         grande importância para a qualidade de vida nas cidades.
+
+        </h4>
+        <button id="btn-ir-tela2">Ir para a próxima tela</button>
+    </div>
+
+    <!-- Tela 2: Conteúdo Texto -->
+    <div id="tela2" class="tela2" style="display: none;">
+        <h1>A Mobilidade Urbana:<p><h3>obilidade Urbana é definida como a 
+        condição que permite o deslocamento das pessoas em uma
+        cidade, com o objetivo de desenvolver relações sociais
+        e econômicas. Ônibus, metrô, outros transportes 
+        coletivos e carros fazem parte das soluções de 
+        mobilidade. No dicionário, mobilidade significa 
+        “facilidade para se mover”.</h3></p></h1>
+
+        <h1>O que a mobilidade urbana causa?   
+        <p><h3>Problemas da mobilidade urbana
+        Limitação do fluxo; Aumento do índice de acidentes, 
+        tendo como consequência mutilações graves ou mortes; 
+        Pequena oferta de alternativa de mobilidade para 
+        atender o excesso de passageiros que dependem de 
+        transportes públicos; Poluição do ambiente.</h3></p></h1>
+
+        <h1>Qual o impacto da mobilidade urbana nas nossas vidas?
+        <p><h3>A mobilidade urbana eficiente pode trazer diversos benefícios 
+        para a sociedade. Primeiramente, ela pode melhorar a acessibilidade 
+        e a inclusão social, permitindo que as pessoas tenham acesso a empregos,
+         serviços e lazer em diferentes partes da cidade.<h3></p>
+        </h1>
+
+        <h1>Quais são os principais problemas da mobilidade urbana?<P><h3>
+            A mobilidade urbana eficiente pode trazer diversos benefícios
+            para a sociedade. Primeiramente, ela pode melhorar a acessibilidade 
+            e a inclusão social, permitindo que as pessoas tenham acesso a empregos, 
+            serviços e lazer em diferentes partes da cidade.
+        </h3></P>
+        </h1>
+
+        
+        <button id="btn-ir-tela3">Ir para a tela de feedback</button>
+    </div>
+
+    <!-- Tela 3: Feedback -->
+    <div id="tela3" class="tela3" style="display: none;">
+        <h3>Deixe seu Feedback</h3>
+        <button id="btn-curtir">Curtir 👍</button>
+        <p id="contador-curtidas">Curtidas: 0</p>
+        <form id="form-feedback">
+            <label for="nome">Seu nome:</label>
+            <input type="text" id="nome" placeholder="Digite seu nome" required>
+            <label for="mensagem">Sua mensagem:</label>
+            <textarea id="mensagem" rows="4" cols="50" placeholder="Escreva sua mensagem" required></textarea>
+            <button type="submit">Enviar Feedback</button>
+        </form>
+        <div id="feedback-resultado"></div>
+    </div>
+
+
+</body>
+
+</html>
